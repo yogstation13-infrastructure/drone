@@ -49,7 +49,7 @@ drone:
       - host: drone.yogstation.net
         paths:
           - "/"
-    tls: [ ]
+    tls:
       - hosts:
           - drone.yogstation.net
         secretName: drone-cert
