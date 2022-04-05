@@ -2,3 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - kustomization/inflated.yaml
+images:
+  - name: harbor.yogstation.net/yogstation/drone
+  - digest: sha256:5498fd0fa6114bb6931edbddce76fcfe09276f483b4f7b52e0fbc9b39c408bcd
+
