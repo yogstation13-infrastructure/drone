@@ -241,4 +241,4 @@ drone:
     DRONE_CRON_INTERVAL: 15m
     DRONE_LOGS_COLOR: true
     DRONE_LOGS_PRETTY: true
-    DRONE_REGISTRATION_CLOSED: true
+    DRONE_USER_FILTER: yogstation13-infrastructure
