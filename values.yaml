@@ -1,7 +1,7 @@
 drone:
   image:
     repository: harbor.yogstation.net/yogstation/drone
-    tag: _placeholder_
+    tag: placeholder
     pullPolicy: IfNotPresent
 
   ## If you need to pull images from a private Docker image repository, pass in the name
